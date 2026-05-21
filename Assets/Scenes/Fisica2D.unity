@@ -1614,6 +1614,7 @@ GameObject:
   - component: {fileID: 2131806717}
   - component: {fileID: 2131806720}
   - component: {fileID: 2131806719}
+  - component: {fileID: 2131806721}
   m_Layer: 0
   m_Name: Personagem
   m_TagString: Untagged
@@ -1768,6 +1769,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2131806721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131806716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3456ab4ce11818e438ac44594d6809e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Movimento
+  movimentoSpeed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
